@@ -1,8 +1,5 @@
 package jv.spingexample;
 
-import org.springframework.stereotype.Component;
-
-@Component(value = "bean2")
 public class MessagePrinterImpl2  implements MessagePrinter {
 
     @Override

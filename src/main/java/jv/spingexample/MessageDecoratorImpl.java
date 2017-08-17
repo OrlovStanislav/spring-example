@@ -1,8 +1,5 @@
 package jv.spingexample;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class MessageDecoratorImpl implements MessageDecorator {
 
     @Override

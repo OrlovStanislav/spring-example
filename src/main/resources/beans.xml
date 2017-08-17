@@ -15,7 +15,6 @@
     <bean id="messagePrinter" class="jv.spingexample.MessagePrinterImpl">
         <property name="decorator" ref="messageDecorator"/>
     </bean>
-<!--    <bean id="messagePrinter" class="jv.spingexample.MessagePrinterImpl2">
-    </bean>-->
+    <bean id="messagePrinter2" class="jv.spingexample.MessagePrinterImpl2"/>
 
 </beans>
