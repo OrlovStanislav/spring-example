@@ -9,10 +9,6 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "jv")
 public class AnnotationConfig {
     
-//    @Bean
-//    public MessageDecorator messageDecorator(){
-//        return new MessageDecoratorImpl();
-//    }
     @Bean
     public MessagePrinterImpl3 messagePrinter(@Autowired MessageDecorator dec){
         return new MessagePrinterImpl3(dec, "#-#-#-#-#-#-#");
